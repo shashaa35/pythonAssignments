@@ -18,6 +18,7 @@ def printlist(listOfObjects):
         print(str(obj))
 
 
+# Time Complexity : O(nlogn)
 def sort(students, criteria):
     keys = criteria.split(',')
     filteredKeys = []
